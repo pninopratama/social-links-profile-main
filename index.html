@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Profile Card</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Inter;
+      background-color: #141414;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .card {
+      background-color: #1f1f1f;
+      padding: 40px;
+      border-radius: 12px;
+      text-align: center;
+      width: 300px;
+      color: white;
+    }
+
+    .card img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+
+    .card h2 {
+      margin: 0;
+      font-size: 22px;
+    }
+
+    .card p.location {
+      color: #b5ff38;
+      font-weight: bold;
+      margin: 8px 0;
+    }
+
+    .card p.bio {
+      font-style: italic;
+      font-size: 14px;
+      color: #ccc;
+      margin: 12px 0 24px;
+    }
+
+    .card a.button {
+      display: block;
+      background-color: #333;
+      color: white;
+      padding: 12px;
+      border-radius: 8px;
+      margin: 8px 0;
+      text-decoration: none;
+      transition: background-color 0.2s;
+      font-family: Inter, sans-serif;
+    }
+
+    .card a.button:hover {
+      background-color: #444;
+    }
+    .profile-card {
+      width: 300px;
+      margin: 0 auto;
+      text-align: center;
+      background-color: #1f1f1f;
+      padding: 20px;
+      border-radius: 12px;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="assets/images/avatar-nino.png" alt="Profile Picture">
+    <h2>P Nino Pratama</h2>
+    <p class="location">Cilacap, Indonesia</p>
+    <p class="bio">"Front-end developer and avid reader."</p>
+    <a href="https://github.com/pninopratama" class="button">GitHub</a>
+    <a href="https://www.frontendmentor.io/profile/pninopratama" class="button">Frontend Mentor</a>
+    <a href="https://www.linkedin.com/in/pranidimas-nino-pratama-185702b2/" class="button">LinkedIn</a>
+    <a href="https://www.instagram.com/pninopratama/" class="button">Instagram</a>
+  </div>
+</body>
+</html>
